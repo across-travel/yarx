@@ -6,7 +6,7 @@
 ## 直接使用
 
 ```rust
-git clone https://github.com/kayrx/yarx.git
+git clone https://github.com/kayrx-pro/yarx.git
 cd yarx
 
 cargo build --bin watch
