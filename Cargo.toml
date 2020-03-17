@@ -1,0 +1,24 @@
+[package]
+name = "yarx"
+version = "0.2.0"
+authors = ["Jason Longshore <hello@jasonlongshore.com>", "krircc <krircc@qq.com>"]
+license = "MIT"
+description = "yarx  for building website"
+documentation = "https://docs.rs/yarx/"
+repository = "https://github.com/kayrx/yarx"
+readme = "README.md"
+keywords = ["tool", "site"]
+categories = ["tool"]
+edition = "2018"
+
+[[bin]]
+name = "run"
+path = "bin/run.rs"
+
+[[bin]]
+name = "watch"
+path = "bin/watch.rs"
+
+[dependencies]
+notify = "4.0.10"
+
